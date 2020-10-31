@@ -67,15 +67,13 @@ void load_file(const char* filename)
 
 void print_ram()
 {
-//    for (int i = 0; i < 256; ++i) {
-//        for (int j = 0; j < 256; ++j) {
-//            printf("%02x ", mem.ram[i][j]);
-//        }
-//        printf("\n");
-//    }
-    for (int j = 0; j < 256; ++j) {
-        printf("%02x ", mem.ram[0][j]);
+    for (int i = 0; i < 256; ++i) {
+       for (int j = 0; j < 256; ++j) {
+            printf("%02x ", mem.ram[i][j]);
+        }
+       printf("\n");
     }
+
     printf("\n");
 }
 

@@ -3,6 +3,7 @@
 //
 
 #include "rel.h"
+#include "cpu.h"
 
 void bpl()
 {}
@@ -23,7 +24,10 @@ void bcs()
 {}
 
 void bne()
-{}
+{
+    cpu.sr
+
+}
 
 void beq()
 {}
